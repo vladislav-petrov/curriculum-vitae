@@ -1,0 +1,179 @@
+/* 1rem = 1rem = 16px in media queries */
+
+/* 1248px */
+
+@media (max-width: 78em) {
+  .detailed-info {
+    width: 80%;
+    padding-top: 4rem;
+  }
+
+  .additional-info__info-section {
+    gap: 3.6rem;
+  }
+
+  .info-section__title {
+    width: 24%;
+  }
+
+  .info-section__list,
+  .info-section__skills {
+    width: 76%;
+  }
+}
+
+/* 1008px */
+
+@media (max-width: 63em) {
+  .basic-info {
+    grid-row: 1;
+  }
+
+  .detailed-info {
+    width: 90%;
+  }
+
+  .additional-info {
+    grid-column: 1 / -1;
+  }
+
+  .additional-info__info-section {
+    gap: 7.2rem;
+  }
+
+  .info-section__title {
+    width: 18%;
+  }
+
+  .info-section__list,
+  .info-section__skills {
+    width: 82%;
+  }
+}
+
+/* 816px */
+
+@media (max-width: 51em) {
+  html {
+    font-size: 54.69%;
+  }
+
+  .detailed-info {
+    width: 100%;
+
+    gap: 2rem;
+  }
+
+  .detailed-info__features,
+  .detailed-info__achievements {
+    gap: 1.2rem;
+  }
+
+  .features__list,
+  .achievements__list {
+    gap: 0.8rem;
+  }
+
+  .features__feature,
+  .achievements__achievement {
+    line-height: 1.4;
+  }
+}
+
+/* 720px */
+
+@media (max-width: 45em) {
+  .additional-info__info-section {
+    gap: 3.6rem;
+  }
+
+  .info-section__title {
+    width: 24%;
+  }
+
+  .info-section__list,
+  .info-section__skills {
+    width: 76%;
+  }
+}
+
+/* 640px */
+
+@media (max-width: 40em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header__logo {
+    justify-content: flex-start;
+  }
+
+  .basic-info {
+    justify-self: center;
+
+    width: 322px;
+    padding-top: 5rem;
+  }
+
+  .detailed-info {
+    padding-top: 0;
+  }
+
+  .additional-info {
+    padding: 4.7rem 3.6rem;
+  }
+
+  .additional-info {
+    gap: 2rem;
+  }
+
+  .additional-info__info-section {
+    padding-bottom: 2rem;
+
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .info-section__title {
+    width: 100%;
+  }
+
+  .info-section__list,
+  .info-section__skills {
+    width: 100%;
+    padding-right: 2.4rem;
+  }
+}
+
+/* 480px */
+
+@media (max-width: 30em) {
+  .info-section__list,
+  .info-section__skills {
+    padding-right: 0;
+  }
+}
+
+/* 416px */
+
+@media (max-width: 26em) {
+  .wrapper {
+    padding: 0 2.8rem;
+  }
+
+  .basic-info {
+    width: 100%;
+  }
+
+  .basic-info__img-container {
+    width: 100%;
+  }
+
+  .additional-info {
+    padding: 4.7rem 2.4rem;
+  }
+
+  .info-section__skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

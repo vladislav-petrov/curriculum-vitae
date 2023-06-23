@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__logo">
+          <img class="header__logo-img" src="img/logo.svg" alt="Logo" />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="wrapper grid">
+        <section class="basic-info">
+          <div class="basic-info__img-container">
+            <img
+              class="basic-info__img"
+              src="img/person-photo.jpg"
+              alt="Person photo"
+            />
+          </div>
+
+          <div class="basic-info__text-container">
+            <div class="basic-info__name">
+              <h1 class="basic-info__full-name">Петров Владислав</h1>
+              <p class="basic-info__age">26 лет, Саратов</p>
+            </div>
+
+            <address class="basic-info__contacts">
+              <a class="basic-info__contacts-link" href="tel:+79000000000">
+                <img
+                  class="contacts-link__icon"
+                  src="img/icons/phone-icon.svg"
+                  alt="Phone icon"
+                />
+
+                <span class="contacts-link__text">+7 927 220 75 45</span>
+              </a>
+
+              <a
+                class="basic-info__contacts-link"
+                href="mailto:frontovvitaliy@yandex.ru"
+              >
+                <img
+                  class="contacts-link__icon"
+                  src="img/icons/main-icon.svg"
+                  alt="Mail icon"
+                />
+
+                <span class="contacts-link__text">
+                  vladislav.ptrv97@gmail.com
+                </span>
+              </a>
+
+              <a
+                class="basic-info__contacts-link"
+                href="https://github.com/vladislav-petrov"
+              >
+                <img
+                  class="contacts-link__icon"
+                  src="img/icons/github-icon.svg"
+                  alt="GitHub icon"
+                />
+
+                <span class="contacts-link__text">vladislav-petrov</span>
+              </a>
+            </address>
+          </div>
+        </section>
+
+        <section class="detailed-info">
+          <p class="detailed-info__intro">
+            Привет! Меня зовут Владислав, я являюсь frontend разработчиком уже
+            более года. Имею опыт разработки веб-приложений как на нативном
+            JavaScript, так и с использованием React и Redux Toolkit. Мне
+            нравится разрабатывать приложения со сложной бизнес-логикой, при
+            этом не забывая о UX/UI-дизайне
+          </p>
+
+          <div class="detailed-info__features">
+            <p class="features__title">Также мне интересны такие темы, как:</p>
+
+            <ol class="features__list">
+              <li class="features__feature">
+                TypeScript и строгая типизация, необходимая, на мой взгляд, при
+                разработке масштабных приложений
+              </li>
+
+              <li class="features__feature">
+                Backend разработка, так как в будущем я хотел бы стать fullstack
+                разработчиком
+              </li>
+            </ol>
+          </div>
+
+          <div class="detailed-info__achievements">
+            <p class="achievements__title">
+              Мои достижения в качестве frontend разработчика на прошлом месте
+              работы:
+            </p>
+
+            <ul class="achievements__list">
+              <li class="achievements__achievement">
+                Создание landing page для нескольких крупных проектов компании
+              </li>
+
+              <li class="achievements__achievement">
+                Создание проекта со сложной бизнес-логикой на JavaScript с нуля
+              </li>
+
+              <li class="achievements__achievement">
+                Создание и поддержка проектов на React с использованием Redux
+                Toolkit и React Router
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="additional-info">
+          <div class="additional-info__info-section">
+            <h2 class="info-section__title">Образование</h2>
+
+            <ul class="info-section__list">
+              <li class="info-section__list-item">
+                <p class="place">
+                  Саратовский национальный исследовательский государственный
+                  университет имени Н.Г.Чернышевского
+                </p>
+
+                <p class="branch">Медицинская физика</p>
+                <p class="period">2015&ndash;2019</p>
+              </li>
+
+              <li class="info-section__list-item">
+                <p class="place">
+                  Саратовский национальный исследовательский государственный
+                  университет имени Н.Г.Чернышевского
+                </p>
+
+                <p class="branch">
+                  Переводчик английского языка в сфере профессиональной
+                  коммуникации
+                </p>
+
+                <p class="period">2015&ndash;2019</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="additional-info__info-section">
+            <h2 class="info-section__title">Карьера</h2>
+
+            <ul class="info-section__list">
+              <li class="info-section__list-item">
+                <p class="place">СИБИНТЕК</p>
+                <p class="branch">ABAP Developer</p>
+                <p class="period">2020&ndash;2021</p>
+              </li>
+
+              <li class="info-section__list-item">
+                <p class="place">ФИЗИКОН</p>
+                <p class="branch">Frontend Developer</p>
+                <p class="period">2021&ndash;2022</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="additional-info__info-section">
+            <h2 class="info-section__title">Навыки</h2>
+
+            <ul class="info-section__skills">
+              <li class="info-section__skill">HTML</li>
+              <li class="info-section__skill">CSS</li>
+              <li class="info-section__skill">JavaScript</li>
+              <li class="info-section__skill">AJAX</li>
+              <li class="info-section__skill">ООП</li>
+              <li class="info-section__skill">React</li>
+              <li class="info-section__skill">Redux Toolkit</li>
+              <li class="info-section__skill">Git</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
